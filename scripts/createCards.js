@@ -1,4 +1,7 @@
-const { ccg, } = require("ccg-card-generator");
+const { ccggen, } = require("ccg-card-generator");
+const cards = require("../cards.js");
+
+// ---------------------------------
 
 const options = {
 	"debug": true,
@@ -8,4 +11,6 @@ const options = {
 	},
 };
 
-ccg("./card.js", "./cards.pdf", options);
+// ---------------------------------
+
+ccggen( cards.cards, "./cards.pdf", options);

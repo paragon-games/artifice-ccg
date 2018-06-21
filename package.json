@@ -6,8 +6,8 @@
   "scripts": {
     "format": "mcclowes-scripts format",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "node --harmony scripts/createRulebooks",
-    "watch": "node --harmony scripts/createRulebooks"
+    "build": "node --harmony scripts/createCards",
+    "watch": "node --harmony scripts/createCards"
   },
   "babel": {
     "presets": [
@@ -36,6 +36,7 @@
   },
   "homepage": "https://github.com/hammerheim-game/hammerheim-rules#readme",
   "dependencies": {
+    "ccg-card-generator": "^1.0.0",
     "html-pdf-chrome": "^0.5.0",
     "marked": "^0.4.0",
     "path": "^0.12.7"
