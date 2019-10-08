@@ -36,7 +36,7 @@
   },
   "homepage": "https://github.com/hammerheim-game/hammerheim-rules#readme",
   "dependencies": {
-    "ccg-card-generator": "^1.0.0",
+    "ccg-card-generator": "^1.1.1",
     "html-pdf-chrome": "^0.5.0",
     "marked": "^0.4.0",
     "path": "^0.12.7"

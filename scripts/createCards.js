@@ -5,10 +5,7 @@ const cards = require("../cards.js");
 
 const options = {
 	"debug": true,
-	"style": "./node_modules/ccg-card-generator/lib/styles/cards.css",
-	"printOptions": {
-		displayHeaderFooter: false,
-	},
+  "customStyles": "./styles/artifice.css",
 };
 
 // ---------------------------------
